@@ -35,3 +35,22 @@ input {
 .warning {
     color: red;
 }
+
+@media screen and (max-width: 500px) {
+    form {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .btn-add-user {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    input {
+        width: 8rem;
+    }
+
+  
+}

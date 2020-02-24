@@ -1,0 +1,16 @@
+.footer {
+    background-color:#323951;
+    padding: 1rem 3rem;
+    
+
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-wrapper a {
+    text-decoration: none;
+    color: white;
+}

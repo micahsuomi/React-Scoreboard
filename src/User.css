@@ -60,3 +60,38 @@
     background-color: rgb(228, 98, 98);
 
 }
+
+@media screen and (max-width: 768px) {
+    
+    .user-container {
+        width: 52rem;
+
+    }
+
+    .btn-delete, .btn-score {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 15px;
+
+    }
+
+    .fa-trash-alt {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .user-container {
+        width: 29rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .user-container {
+        width: 26rem;
+
+    }
+}
+
